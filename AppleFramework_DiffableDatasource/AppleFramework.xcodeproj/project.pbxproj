@@ -18,6 +18,8 @@
 		948CD20C2812AD5F003DC0C4 /* AppleFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD20B2812AD5F003DC0C4 /* AppleFrameworkUITests.swift */; };
 		948CD20E2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD20D2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift */; };
 		948CD21B2812ADBA003DC0C4 /* FramewokData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD21A2812ADBA003DC0C4 /* FramewokData.swift */; };
+		DF63DE2128AD21D400768E7C /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF63DE2028AD21D400768E7C /* Detail.storyboard */; };
+		DF63DE2528AD223C00768E7C /* FrameworkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF63DE2428AD223C00768E7C /* FrameworkDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		948CD20B2812AD5F003DC0C4 /* AppleFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITests.swift; sourceTree = "<group>"; };
 		948CD20D2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		948CD21A2812ADBA003DC0C4 /* FramewokData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramewokData.swift; sourceTree = "<group>"; };
+		DF63DE2028AD21D400768E7C /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		DF63DE2428AD223C00768E7C /* FrameworkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,9 @@
 				948CD21A2812ADBA003DC0C4 /* FramewokData.swift */,
 				9487E77E2815676900A635EF /* FrameworkListViewController.swift */,
 				9487E7802815698C00A635EF /* FrameworkCell.swift */,
+				DF63DE2428AD223C00768E7C /* FrameworkDetailViewController.swift */,
 				948CD1F02812AD5E003DC0C4 /* Main.storyboard */,
+				DF63DE2028AD21D400768E7C /* Detail.storyboard */,
 				948CD1F32812AD5F003DC0C4 /* Assets.xcassets */,
 				948CD1F52812AD5F003DC0C4 /* LaunchScreen.storyboard */,
 				948CD1F82812AD5F003DC0C4 /* Info.plist */,
@@ -240,6 +246,7 @@
 				948CD1F72812AD5F003DC0C4 /* LaunchScreen.storyboard in Resources */,
 				948CD1F42812AD5F003DC0C4 /* Assets.xcassets in Resources */,
 				948CD1F22812AD5E003DC0C4 /* Main.storyboard in Resources */,
+				DF63DE2128AD21D400768E7C /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +275,7 @@
 				948CD1ED2812AD5E003DC0C4 /* SceneDelegate.swift in Sources */,
 				948CD21B2812ADBA003DC0C4 /* FramewokData.swift in Sources */,
 				9487E7812815698C00A635EF /* FrameworkCell.swift in Sources */,
+				DF63DE2528AD223C00768E7C /* FrameworkDetailViewController.swift in Sources */,
 				9487E77F2815676900A635EF /* FrameworkListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
